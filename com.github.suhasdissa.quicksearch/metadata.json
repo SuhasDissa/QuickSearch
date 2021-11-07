@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "Suhas Dissanayake"
+            }
+        ],
+        "Category": "Online Services",
+        "Description": "Add a searchbox on your desktop.",
+        "Icon": "search-symbolic",
+        "Id": "com.github.suhasdissa.quicksearch",
+        "License": "GPL-2.0+",
+        "Name": "Quick Search Box",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "https://github.com/SuhasDissa/"
+    },
+    "X-KDE-ParentApp": "",
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-StandAloneApp": true
+}
