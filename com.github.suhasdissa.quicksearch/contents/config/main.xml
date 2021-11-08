@@ -15,14 +15,5 @@
     <entry name="query" type="String">
         <default>https://search.brave.com/search?q=</default>
     </entry>
-    <entry name="useMinViewWidth" type="Bool">
-      <default>true</default>
-    </entry>
-    <entry name="minViewWidth" type="Int">
-      <default>600</default>
-    </entry>
-    <entry name="constantZoomFactor" type="Int">
-      <default>100</default>
-    </entry>
   </group>
 </kcfg>
