@@ -12,6 +12,9 @@ Kirigami.FormLayout {
     property alias cfg_useMinViewWidth: useMinViewWidth.checked
     property alias cfg_minViewWidth: minViewWidth.value
     property alias cfg_constantZoomFactor: constantZoomFactor.value
+    property alias cfg_homeurl: homeurl.text
+    property alias cfg_query: query.text
+
 
     QQC2.ButtonGroup { id: zoomGroup }
 
@@ -85,4 +88,23 @@ Kirigami.FormLayout {
         }
     }
 
+    RowLayout{
+        Kirigami.FormData.label: i18nc("@title:group", "Homepage URL:")
+
+QQC2.TextArea {
+        id: homeurl
+        placeholderText : "https://search.brave.com/"
+    }
+
+    }
+    RowLayout{
+        Kirigami.FormData.label: i18nc("@title:group", "Search Engine Query:")
+
+QQC2.TextArea {
+        id: query
+        placeholderText : "https://search.brave.com/search?q="
+    }
+
+    }
 }
+

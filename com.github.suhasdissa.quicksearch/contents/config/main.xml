@@ -7,13 +7,13 @@
 
   <group name="General">
     <entry name="url" type="String">
-        <default>https://duckduckgo.com/</default>
+        <default>https://search.brave.com/</default>
     </entry>
     <entry name="homeurl" type="String">
-        <default>https://duckduckgo.com/</default>
+        <default>https://search.brave.com/</default>
     </entry>
     <entry name="query" type="String">
-        <default>https://duckduckgo.com/?q=</default>
+        <default>https://search.brave.com/search?q=</default>
     </entry>
     <entry name="useMinViewWidth" type="Bool">
       <default>true</default>

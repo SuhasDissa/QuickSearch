@@ -1,11 +1,3 @@
-/*
- *   SPDX-FileCopyrightText: 2014, 2016 Mikhail Ivchenko <ematirov@gmail.com>
- *   SPDX-FileCopyrightText: 2018 Kai Uwe Broulik <kde@privat.broulik.de>
- *   SPDX-FileCopyrightText: 2020 Sora Steenvoort <sora@dillbox.me>
- *
- *   SPDX-License-Identifier: GPL-2.0-or-later
- */
-
 import QtQuick 2.0
 import QtWebEngine 1.5
 import QtQuick.Layouts 1.1
@@ -90,7 +82,7 @@ ColumnLayout {
         Layout.fillHeight: true
 
         // TODO use contentsSize but that crashes, now mostly for some sane initial size
-        Layout.preferredWidth: PlasmaCore.Units.gridUnit * 48
+        Layout.minimumWidth: PlasmaCore.Units.gridUnit * 48
         Layout.preferredHeight: PlasmaCore.Units.gridUnit * 108
 
         // Binding it to e.g. width will be super slow on resizing
