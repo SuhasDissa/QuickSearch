@@ -51,8 +51,10 @@ ColumnLayout {
         Layout.fillWidth: true
         Layout.fillHeight: true
 
-        Layout.minimumWidth: PlasmaCore.Units.gridUnit * 48
-        Layout.preferredHeight: PlasmaCore.Units.gridUnit * 108
+        //Layout.minimumWidth: PlasmaCore.Units.gridUnit * 48
+        //Layout.preferredHeight: PlasmaCore.Units.gridUnit * 108
+        Layout.minimumWidth: PlasmaCore.Units.devicePixelRatio *100
+        Layout.preferredHeight: PlasmaCore.Units.devicePixelRatio * 108
 
         WebEngineView {
             id: webview
